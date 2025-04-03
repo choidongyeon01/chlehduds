@@ -1,0 +1,16 @@
+스타벅스 URL
+url = 'https://www.istarbucks.co.kr/store/store_map.do?disp=locale'
+
+# webdriver로 ‘서울’ 버튼 요소를 찾아 클릭
+seoul_btn = '#container > div > form > fieldset > div > section > article.find_store_cont > article > article:nth-child(4) > div.loca_step1 > div.loca_step1_cont > ul > li:nth-child(1) > a'
+
+# webdriver로 ‘전체’ 버튼 요소를 찾아 클릭
+all_btn = '#mCSB_2_container > ul > li:nth-child(1) > a'
+
+
+다나와 검색 결과 URL
+url = "http://search.danawa.com/dsearch.php?query=무선청소기&tab=main"
+
+
+다나와 검색 결과 페이지 URL
+http://search.danawa.com/dsearch.php?query=무선청소기&volumeType=allvs&page=1&limit=30&sort=saveDESC&list=list&boost=true&addDelivery=N&tab=goods&tab=goods
